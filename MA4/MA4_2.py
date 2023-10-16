@@ -27,7 +27,7 @@ def fib_numba(n):
     
 
 if __name__ == "__main__":
-    ns = list(range(20, 46)) #
+    ns = 47 #
     times_py = []
     times_numba = []
     times_cpp = []
