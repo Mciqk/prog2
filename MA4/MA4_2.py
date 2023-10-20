@@ -42,7 +42,7 @@ def cal_time(n_values, function):
 
 def plot_times(n_values, py_times, numba_times, cpp_times):
     plt.plot(n_values, py_times, label='Python', color='b')  
-    plt.plot(n_values, numba_times, label='Numba', color='o')
+    plt.plot(n_values, numba_times, label='Numba', color='g')
     plt.plot(n_values, cpp_times, label='C++', color='r')  
     plt.xlabel('n')  
     plt.ylabel('seconds')
